@@ -1,0 +1,24 @@
+{
+  "name": "serialport-com",
+  "version": "1.0.1",
+  "description": "COM Connection",
+  "main": "app.js",
+  "dependencies": {
+    "serialport": "^7.1.4",
+    "usb": "^1.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pedro Faria",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdrlmfr/serialport.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pdrlmfr/serialport/issues"
+  },
+  "homepage": "https://github.com/pdrlmfr/serialport#readme"
+}
