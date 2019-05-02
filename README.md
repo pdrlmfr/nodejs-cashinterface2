@@ -7,4 +7,4 @@ This script connect to a  **RS232** interface  using NodeJS.
 Open **app.js** edit portname = **"COM1"** with your port name.
 
 ## Run
-To run the script its simple on terminal run the follow command ***node app.js***
+To run the script its simple on terminal run the follow command ***"node app.js"***
