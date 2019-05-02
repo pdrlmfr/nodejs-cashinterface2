@@ -1,6 +1,6 @@
 # SerialPort
 
-This script connect to a  **RS323** interface  using NodeJS.
+This script connect to a  **RS232** interface  using NodeJS.
 
 ## Rename port
 
