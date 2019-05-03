@@ -1,4 +1,4 @@
-# SerialPort
+# SerialPort Cash-Interface2
 
 This script connect to Cash-Interface2 with a  **RS232** cable  using NodeJS.
 
