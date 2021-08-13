@@ -4,9 +4,11 @@ const Readline = require("@serialport/parser-readline");
 let comPort;
 
 SerialPort.list((err, ports) => {
+
   /**
    * Find COM port
    */
+
   ports.forEach(port => {
     console.log(port);
     if (port.pnpId == "ACPI\\PNP0501\\0") {
@@ -19,6 +21,7 @@ SerialPort.list((err, ports) => {
   /**
    * COM port configs
    */
+
   const port = new SerialPort(comPort, {
     baudRate: 19200,
     autoOpen: false
@@ -39,6 +42,9 @@ SerialPort.list((err, ports) => {
     port.write("CASH_TOTALBLOCKING 0\r\n");
   });
 
+  /**
+   * Interface read input physical money and return the value
+   */
   const readMoney = money => {
     const found = money.includes("IN=");
 
